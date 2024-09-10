@@ -1,0 +1,28 @@
+//utils:: in utils we place multer,coloudinary
+//db .js :connect with db
+
+
+//models: means schema  a model defines the structure of the data you want to store. It specifies the fields and their data types, along with any rules or validations, making it easier to interact with the database.
+
+
+//controllers:n Express.js, controllers are functions that decide what to do when a specific URL is accessed. They handle the request, perform actions like getting data or saving information, and then send a response back to the user.Think of them as the "brain" that decides what happens when someone visits a page or makes a request.
+//1.user controller: Here’s what a user controller might do:
+
+/*
+Register: Adds a new user to the database.
+Login: Verifies user credentials and provides access.
+Update Profile: Modifies user details like name or email.
+Get User: Retrieves user information from the database.*/
+
+
+
+
+//routes:
+/*Routes in web development are like paths that guide where requests are sent within an application. They determine how the application responds to different URLs or API endpoints.*/
+
+
+//1. {timestamps: true}
+/*This option automatically adds two fields to your userSchema:
+createdAt: The date and time when the document (user data) was created.
+updatedAt: The date and time when the document was last updated.
+These timestamps are useful for tracking when a user was created and last modified.*/
